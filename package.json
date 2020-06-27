@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "node-sass scss/ -o css",
-    "zalkar": "npm run css && node-sass scss/ -wo css"
+    "sanjo": "node-sass scss/ -o css",
+    "zalkar": "npm run sanjo && node-sass scss/ -wo css"
   },
   "author": "",
   "license": "ISC",

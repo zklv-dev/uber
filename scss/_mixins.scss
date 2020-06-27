@@ -1,0 +1,21 @@
+// .banner_btn{
+//     transform: rotate(30deg);
+//     -moz-transform: rotate(30deg);
+//     -webkit-transform: rotate(30deg);
+//     -ms-transform: rotate(30deg);
+//     -o-transform: rotate(30deg);
+//   }
+
+@mixin trans($prop) {
+  -webkit-transform: $prop;
+  -o-transform: $prop;
+  -ms-transform: $prop;
+  -moz-transform: $prop;
+  transform: $prop;
+}
+
+@mixin btn_hover {
+  &:hover {
+    background: green;
+  }
+}
